@@ -6,7 +6,8 @@ import { ThemeProvider } from 'styled-components'
 import theme from './styles/theme'
 // import { SignIn } from './pages/SignIn'
 // import { SignUp } from './pages/SignUp'
-import { Profile } from './pages/Profile'
+// import { Profile } from './pages/Profile'
+import { New } from './pages/New'
 
 
 
@@ -16,7 +17,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <GlobalStyles/>
       {/* <Home /> */}
       {/* <SignIn/> */}
-      <Profile/> 
+      {/* <Profile/>  */}
+      <New/>
      
     </ThemeProvider>
 
