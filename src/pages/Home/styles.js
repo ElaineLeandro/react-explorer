@@ -13,7 +13,7 @@ export const Container = styled.div`
   "menu content"
   "newnote content";
 
-  background-color: ${({theme}) => theme.COLORS.BACKGROUND_800}
+  background-color: ${({theme}) => theme.COLORS.BACKGROUND_800};
 `
 export const Brand = styled.div`
    grid-area: brand;
@@ -29,7 +29,7 @@ export const Brand = styled.div`
 
    > h1 {
     font-size:24px;
-    color: ${({ theme}) => theme.COLORS.ORANGE}
+    color: ${({ theme}) => theme.COLORS.ORANGE};
    }
 `
 export const Menu = styled.ul`      
@@ -42,7 +42,7 @@ text-align: center;
 > li {
   margin-bottom: 24px;
 }
-`
+`;
 export const Search = styled.div`
 grid-area: search;
 padding: 64px 64px 0;

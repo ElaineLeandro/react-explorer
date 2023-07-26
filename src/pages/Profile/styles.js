@@ -32,7 +32,7 @@ export const Form = styled.form`
 `
 
 export const Avatar = styled.div`
-  position: relative;
+
   margin: -125px auto 32px;
 
   width: 186px;
