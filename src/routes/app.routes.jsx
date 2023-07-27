@@ -5,6 +5,7 @@ import {Home} from '../pages/Home'
 
 import {Details} from '../pages/Datails'
 import {Profile} from '../pages/Profile'
+
 export function AppRoutes(){
   return (
     <Routes>
